@@ -1,50 +1,34 @@
-# React + TypeScript + Vite
+<h1 align="center"> DT Money </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+Uma aplicação de controle financeiro feita como forma de estudos do curso ReactJS da Rocketseat
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+<a href="">🔗 Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#-tecnologias">🚀 Tecnologias</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#-projeto">💻 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#-aprendizados">📚 Aprendizados</a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias
 
-## Expanding the ESLint configuration
+- React
+- TypeScript
+- FIGMA
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 💻 Projeto
 
-- Configure the top-level `parserOptions` property like this:
+O "DT Money" foi um projeto do curso de ReactJS da Rocketseat no módulo "HTTP e Performance". Onde consolidei conhecimentos sobre requisições com Axios, React Hook Form, Context Selectors para evitar renders desnecessários e otimizações com useMemo e useCallback.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📚 Aprendizados
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Este projeto foi feito dentro do curso de ReactJS no módulo "HTTP e Performance" da Rocketseat. Nele pude consolidar os conhecimentos sobre:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### React
+- useMemo
+- useCallback
+- Context Selectors
+- React Hook Form
+- Axios
+- Performance e fluxo de renderização
